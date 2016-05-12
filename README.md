@@ -7,20 +7,5 @@
  	<h1>Hello World</h1>
 </div>
 
-<div ng-app="">
-<p>My first expression: {{ 5 + 5 }}</p>
-</div>
-
-<div ng-app="">
- 	<p>Name: <input type="text" ng-model="name"></p>
- 	<p ng-bind="name"></p>
-</div>
-
-<div ng-app="" ng-init="firstName='John'">
-
-<p>The name is <span ng-bind="firstName"></span></p>
-
-</div>
-
 </body>
 </html>
